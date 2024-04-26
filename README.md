@@ -2,7 +2,7 @@
 [![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Naereen/ama)
 ________________________
 
- Here are several examples demonstrating how to establish connections to various databases using Python.
+ Here are several examples demonstrating how to establish connections to various data sources using Python.
 
 ## Software required
 Python compiler --> https://www.python.org/downloads/  
