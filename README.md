@@ -44,9 +44,37 @@ Install oracledb.
 
     pip install oracledb --upgrade
 
+## mssql_mssql.py
 
+### Step 1
+Install oracledb.  
+  
+  On Linux or Mac:  
+    
+    pip install --upgrade pymssql
+
+  On Windows:  
+
+    pip install pymssql --upgrade
+
+## mssql_odbc.py
+
+### Step 1
+Get and install the Microsoft ODBC driver for SQL Server.  
+For Windows --> https://learn.microsoft.com/en-us/sql/connect/odbc/windows/system-requirements-installation-and-driver-files?view=sql-server-ver16#installing-microsoft-odbc-driver-for-sql-server
+  
+### Step 2
+Install pymssql.  
+  
+  On Linux or Mac:  
+    
+    pip install --upgrade pymssql
+
+  On Windows:  
+
+    pip install pymssql --upgrade
 
 ## References
 https://cx-oracle.readthedocs.io/en/latest/  
-https://python-oracledb.readthedocs.io/en/latest/
+https://python-oracledb.readthedocs.io/en/latest/  
 https://learn.microsoft.com/en-us/sql/connect/python/python-driver-for-sql-server?view=sql-server-ver16  
