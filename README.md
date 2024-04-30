@@ -74,7 +74,16 @@ Install pymssql.
 
     pip install pymssql --upgrade
 
+## ascii_json.py
+
+### Step 1
+Ensure that the .json file is present in the directory where the .py file resides.
+
+### Step 2
+Verify that the data within the .json file conforms to the JSON format.
+
 ## References
 https://cx-oracle.readthedocs.io/en/latest/  
 https://python-oracledb.readthedocs.io/en/latest/  
 https://learn.microsoft.com/en-us/sql/connect/python/python-driver-for-sql-server?view=sql-server-ver16  
+https://docs.python.org/3/library/json.html
