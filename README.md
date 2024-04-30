@@ -82,8 +82,30 @@ Ensure that the .json file is present in the directory where the .py file reside
 ### Step 2
 Verify that the data within the .json file conforms to the JSON format.
 
+## open_ai_028.py
+
+### Step 1
+Log in to Open AI account, generate the API key.
+
+### Step 2
+Install Open AI 0.28 version.  
+    pip install openai==0.28
+
+### Step 3
+If you encounter the "openai.error.PermissionError: You are not allowed to sample from this model" issue, use the code provided below to obtain a list of available models, some of which can be utilized:  
+    
+    # list models  
+    # models = openai.Model.list()
+
+    # print the models
+    # print(models.data)
+
+### Step 4
+Explore more options by specifying different engines, adjusting parameters like temperature or frequency penalty, and handling responses with more sophistication.
+
 ## References
 https://cx-oracle.readthedocs.io/en/latest/  
 https://python-oracledb.readthedocs.io/en/latest/  
 https://learn.microsoft.com/en-us/sql/connect/python/python-driver-for-sql-server?view=sql-server-ver16  
 https://docs.python.org/3/library/json.html
+https://platform.openai.com/docs/quickstart  
